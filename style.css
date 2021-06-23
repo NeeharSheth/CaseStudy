@@ -1,0 +1,14 @@
+#azzure_results, #mobilenet_results{
+    visibility: hidden;
+}
+
+h1{
+    color:crimson;
+    font-family: 'Bebas Neue', cursive;
+    background-color: lightpink;
+}
+
+body{
+    background-color:palevioletred;
+    color: turquoise;
+}

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>A Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <center>
+        <h1>Microsoft Azzure vs Mobilenet</h1>
+        <br> <br> <br> <br>
+        <hr>
+        <div id="azzure_results">
+            <h5>Output on <b>Microsoft Azzure</b>-
+                <span></span>
+            </h5>
+            <hr>
+        </div>
+        <div>
+            <li><b>Test Image-</b><img onclick="change_image()" src="pencil.png" id="test_image" class="img-responsive"></li>
+            <span><button class="btn btn-info">Test Microsoft Azzure</button></span>
+            <button class="btn btn-info">Test Mobilenet</button>
+        </div>
+        <div id="mobilenet_results">
+            <hr>
+            <h5>Output on <b>Mobilenet</b>-
+                <span></span>
+            </h5>
+            <hr>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
